@@ -1,0 +1,119 @@
+Altium Designer Pick and Place Locations
+C:\Projects\umdkv2-github\umdkv2\umdk-onepcb\.\Generate Files\Pick Place\Pick Place for UMDK.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       21/06/25
+Time:       15:31
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Ref-X(mm)  Ref-Y(mm)  Layer    Rotation Footprint          "Footprint Description"                                              Value Manufacturer             "Manufacturer Part Number" 
+C3         -53.5000mm -16.2500mm TopLayer 0        C-0603             "Chip Capacitor 0603"                                                4.7uF Kemet                    C0603C475K9PAC7867         
+C5         -53.5000mm -13.7500mm TopLayer 0        C-0603             "Chip Capacitor 0603"                                                4.7uF Kemet                    C0603C475K9PAC7867         
+J2         -51.9000mm 8.0000mm   TopLayer 180      5027740891         "Molex MicroSD Card Socket"                                          ""    Molex                    5027740891                 
+D2         -51.0000mm -7.0000mm  TopLayer 90       D-SMA              DO-214-AC/SMA                                                        ""    "ST Microelectronics"    STPS2L30A                  
+U9         -50.0000mm 1.5000mm   TopLayer 0        MICT-MN-8_N        "SOIC, 8-Leads, Body 5x4mm, Pitch 1.27mm, IPC Medium Density"        ""    Micron                   M25P40-VMN6P               
+L2         -50.0000mm -20.0000mm TopLayer 270      I-1212             "SMD Inductor 1212"                                                  3.3uH "Wuerth Elektronik"      74438336033                
+C11        -50.0000mm -25.2500mm TopLayer 90       C-1210             "Chip Capacitor 1210"                                                100uF Kemet                    C1210C107M9PAC7800         
+L3         -50.0000mm -15.0000mm TopLayer 270      I-1212             "SMD Inductor 1212"                                                  3.3uH "Wuerth Elektronik"      74438336033                
+C58        -49.2500mm 5.0000mm   TopLayer 0        C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+R3         -48.0000mm -23.2500mm TopLayer 270      R-0402             "SMD Resistor 0402"                                                  3.3k  Vishay                   CRCW04023K30FKEDC          
+R4         -47.0000mm -23.2500mm TopLayer 270      R-0402             "SMD Resistor 0402"                                                  3.3k  Vishay                   CRCW04023K30FKEDC          
+R12        -45.2680mm 1.5000mm   TopLayer 90       R-0402             "SMD Resistor 0402"                                                  3.3k  Vishay                   CRCW04023K30FKEDC          
+C7         -45.0000mm -23.2500mm TopLayer 180      C-0603             "Chip Capacitor 0603"                                                4.7uF Kemet                    C0603C475K9PAC7867         
+C4         -45.0000mm -14.0000mm TopLayer 0        C-1210             "Chip Capacitor 1210"                                                100uF Kemet                    C1210C107M9PAC7800         
+C6         -45.0000mm -26.0000mm TopLayer 0        C-1210             "Chip Capacitor 1210"                                                100uF Kemet                    C1210C107M9PAC7800         
+C8         -45.0000mm -16.7500mm TopLayer 180      C-0603             "Chip Capacitor 0603"                                                4.7uF Kemet                    C0603C475K9PAC7867         
+U1         -45.0000mm -20.0000mm TopLayer 0        10SON              ""                                                                   ""    "Richtek USA Inc."       RT8035GQW                  
+R1         -43.0000mm -16.7500mm TopLayer 90       R-0402             "SMD Resistor 0402"                                                  1.5k  Vishay                   CRCW04021K50FKEDC          
+R2         -42.0000mm -16.7500mm TopLayer 270      R-0402             "SMD Resistor 0402"                                                  6.8k  Vishay                   CRCW04026K80FKEDC          
+L1         -40.0000mm -20.0000mm TopLayer 270      I-1212             "SMD Inductor 1212"                                                  3.3uH "Wuerth Elektronik"      74438336033                
+C1         -40.0000mm -14.7500mm TopLayer 270      C-1210             "Chip Capacitor 1210"                                                100uF Kemet                    C1210C107M9PAC7800         
+C2         -40.0000mm -25.2500mm TopLayer 270      C-1210             "Chip Capacitor 1210"                                                100uF Kemet                    C1210C107M9PAC7800         
+C14        -37.2500mm -23.7500mm TopLayer 90       C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C13        -37.2500mm -26.2500mm TopLayer 270      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+D1         -37.0000mm 15.0000mm  TopLayer 90       D-SMA              DO-214-AC/SMA                                                        ""    "ST Microelectronics"    STPS2L30A                  
+C15        -35.0000mm 5.0000mm   TopLayer 180      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+U3         -35.0000mm 1.5000mm   TopLayer 0        SOIC-SN8_N         "SOIC, 8-Leads, Body 4.9x3.8mm, Pitch 1.27mm, IPC Medium Density"    ""    Microchip                24LC128-E/SN               
+C16        -31.5000mm -15.0000mm TopLayer 180      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C21        -30.0000mm 12.5000mm  TopLayer 0        C-0402             "Chip Capacitor 0402"                                                22pF  Kemet                    C0402C220J5GACTU           
+R7         -30.0000mm 15.0000mm  TopLayer 0        R-0402             "SMD Resistor 0402"                                                  6.8k  Vishay                   CRCW04026K80FKEDC          
+R6         -30.0000mm 16.2500mm  TopLayer 180      R-0402             "SMD Resistor 0402"                                                  3.3k  Vishay                   CRCW04023K30FKEDC          
+C20        -30.0000mm 13.7500mm  TopLayer 0        C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+U2         -30.0000mm -25.0000mm TopLayer 90       1201-01_L          "TSSOP, 48-Leads, Body 12.5x6.1mm, Pitch 0.5mm, IPC High Density"    ""    Nexperia                 74LVC16245ADGG,118         
+R5         -29.1275mm 2.5000mm   TopLayer 0        R-0402             "SMD Resistor 0402"                                                  1.5k  Vishay                   CRCW04021K50FKEDC          
+C19        -29.1275mm 3.7500mm   TopLayer 180      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C18        -29.1275mm 0.0000mm   TopLayer 0        C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C17        -29.0000mm -15.0000mm TopLayer 180      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+Y1         -27.5000mm 8.7500mm   TopLayer 0        CRYSTAL_HC49-US-SM "SMD Crystal HC49/US-SM package"                                     ""    "CTS-Frequency Controls" ATS240BSM-1E               
+C22        -26.7500mm -15.0000mm TopLayer 0        C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C23        -25.0000mm 12.5000mm  TopLayer 180      C-0402             "Chip Capacitor 0402"                                                22pF  Kemet                    C0402C220J5GACTU           
+U4         -25.0000mm -7.5000mm  TopLayer 90       O56_N              "SOP, 56-Leads, Body 18.4x7.5mm, Pitch 0.635mm, IPC Medium Density"  ""    Cypress                  CY7C68014A-56PVXC          
+J1         -24.1320mm 22.0000mm  TopLayer 90       632723300011       "USB-C Connector"                                                    ""    "Wuerth Elektronik"      632723300011               
+C26        -23.1000mm -15.0000mm TopLayer 180      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C25        -22.7500mm -23.7500mm TopLayer 90       C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C24        -22.7500mm -26.2500mm TopLayer 270      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+R9         -20.5000mm -16.9000mm TopLayer 270      R-0402             "SMD Resistor 0402"                                                  3.3k  Vishay                   CRCW04023K30FKEDC          
+Q1         -20.0000mm -25.0000mm TopLayer 270      T-SOT23            "SOT23 3 Leads"                                                      ""    Nexperia                 2N7002,215                 
+R16        -19.9998mm -28.0002mm TopLayer 90       R-0402             "SMD Resistor 0402"                                                  220R  Vishay                   CRCW0402220RFKEDC          
+C27        -19.9200mm 0.0000mm   TopLayer 180      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+R21        -19.3820mm 12.5000mm  TopLayer 270      R-0402             "SMD Resistor 0402"                                                  5.1k  Vishay                   CRCW04025K10FKEDC          
+R8         -19.3400mm -16.9000mm TopLayer 270      R-0402             "SMD Resistor 0402"                                                  3.3k  Vishay                   CRCW04023K30FKEDC          
+R22        -18.1320mm 12.5000mm  TopLayer 90       R-0402             "SMD Resistor 0402"                                                  5.1k  Vishay                   CRCW04025K10FKEDC          
+C29        -17.2500mm -23.7500mm TopLayer 90       C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C28        -17.2500mm -26.2500mm TopLayer 270      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C30        -14.5000mm -15.0000mm TopLayer 0        C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C33        -13.2500mm 1.0000mm   TopLayer 90       C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C31        -13.2500mm -4.5000mm  TopLayer 90       C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C32        -13.2500mm -1.5000mm  TopLayer 90       C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+U5         -10.0000mm -25.0000mm TopLayer 90       1201-01_L          "TSSOP, 48-Leads, Body 12.5x6.1mm, Pitch 0.5mm, IPC High Density"    ""    Nexperia                 74LVC16245ADGG,118         
+C34        -7.5000mm  -13.2500mm TopLayer 0        C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C35        -7.5000mm  13.0000mm  TopLayer 180      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+R17        -3.6320mm  -14.0000mm TopLayer 90       R-0402             "SMD Resistor 0402"                                                  1R    Vishay                   CRCW04021R00FKEDC          
+C37        -2.7500mm  -23.7500mm TopLayer 90       C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C36        -2.7500mm  -26.2500mm TopLayer 270      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C40        -1.0000mm  -14.0000mm TopLayer 270      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C39        0.0000mm   -20.0000mm TopLayer 0        C-1210             "Chip Capacitor 1210"                                                100uF Kemet                    C1210C107M9PAC7800         
+C42        0.0000mm   -14.0000mm TopLayer 270      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C44        0.0000mm   14.0000mm  TopLayer 180      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C43        0.0000mm   13.0000mm  TopLayer 0        C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+U6         0.0000mm   0.0000mm   TopLayer 90       TQG144_N           "Thin QFP, 144-Leads, Body 20x20mm, Pitch 0.5mm, IPC Medium Density" ""    Xilinx                   XC6SLX9-3TQG144C           
+Q2         0.0000mm   -25.0000mm TopLayer 270      T-SOT23            "SOT23 3 Leads"                                                      ""    Nexperia                 2N7002,215                 
+C38        0.0002mm   17.0000mm  TopLayer 0        C-1210             "Chip Capacitor 1210"                                                100uF Kemet                    C1210C107M9PAC7800         
+C41        1.0000mm   -14.0000mm TopLayer 90       C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C45        2.7500mm   -23.2500mm TopLayer 270      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C9         3.0000mm   13.5000mm  TopLayer 90       C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C47        4.5000mm   -14.0000mm TopLayer 270      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+RP1        4.7500mm   -28.5000mm TopLayer 270      RP4-1206           "Resistor Pack, Body 1.6x3.2mm, 4x0603, IPC Medium Density"          270R  Bourns                   CAT16-271J4LF              
+C48        6.7500mm   -14.0000mm TopLayer 270      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C49        7.0000mm   13.0000mm  TopLayer 180      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+RP2        8.2500mm   -28.5000mm TopLayer 270      RP4-1206           "Resistor Pack, Body 1.6x3.2mm, 4x0603, IPC Medium Density"          270R  Bourns                   CAT16-271J4LF              
+C50        10.0000mm  -13.9999mm TopLayer 90       C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+U7         10.0000mm  -22.0000mm TopLayer 90       1201-01_L          "TSSOP, 48-Leads, Body 12.5x6.1mm, Pitch 0.5mm, IPC High Density"    ""    Nexperia                 74ALVC164245DGG:11         
+RP3        11.7500mm  -28.5000mm TopLayer 270      RP4-1206           "Resistor Pack, Body 1.6x3.2mm, 4x0603, IPC Medium Density"          270R  Bourns                   CAT16-271J4LF              
+C53        13.2500mm  -1.7500mm  TopLayer 0        C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C51        13.2500mm  -6.2500mm  TopLayer 180      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C54        13.2500mm  4.2500mm   TopLayer 0        C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C52        13.2500mm  -0.7500mm  TopLayer 0        C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+R20        13.3680mm  -14.0000mm TopLayer 90       R-0402             "SMD Resistor 0402"                                                  3.3k  Vishay                   CRCW04023K30FKEDC          
+R19        14.8680mm  8.7500mm   TopLayer 180      R-0402             "SMD Resistor 0402"                                                  3.3k  Vishay                   CRCW04023K30FKEDC          
+RP4        15.2500mm  -28.5000mm TopLayer 270      RP4-1206           "Resistor Pack, Body 1.6x3.2mm, 4x0603, IPC Medium Density"          270R  Bourns                   CAT16-271J4LF              
+R10        16.6180mm  8.2500mm   TopLayer 270      R-0402             "SMD Resistor 0402"                                                  3.3k  Vishay                   CRCW04023K30FKEDC          
+C60        17.0000mm  13.3000mm  TopLayer 270      C-0603             "Chip Capacitor 0603"                                                4.7uF Kemet                    C0603C475K9PAC7867         
+C63        17.0000mm  17.7000mm  TopLayer 270      C-0603             "Chip Capacitor 0603"                                                4.7uF Kemet                    C0603C475K9PAC7867         
+C46        17.2500mm  -23.2499mm TopLayer 90       C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+C55        17.2500mm  -20.7500mm TopLayer 270      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+R11        17.5000mm  -5.0000mm  TopLayer 270      R-0402             "SMD Resistor 0402"                                                  3.3k  Vishay                   CRCW04023K30FKEDC          
+U10        18.0000mm  -15.0000mm TopLayer 270      DBV0005A_N         "SOT23, 5-Leads, Body 3.05x1.75mm, Pitch 0.95mm, IPC Medium Density" ""    "Texas Instruments"      SN74LVC1G00DBVT            
+R13        18.3679mm  -23.2502mm TopLayer 90       R-0402             "SMD Resistor 0402"                                                  1R    Vishay                   CRCW04021R00FKEDC          
+C56        18.5000mm  -20.7500mm TopLayer 270      C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+U8         25.0000mm  12.5000mm  TopLayer 0        MICT-P-54_N        "SOP, 54-Leads, Body 22.3x10.2mm, Pitch 0.8mm, IPC Medium Density"   ""    Micron                   MT48LC8M16A2P-6A           
+C57        25.5000mm  -11.2500mm TopLayer 0        C-0402             "Chip Capacitor 0402"                                                1uF   Kemet                    C0402C105K9PAC7867         
+U11        25.5000mm  -15.0000mm TopLayer 0        948F-01_N          "TSOP, 16-Leads, Body 5x4.4mm, Pitch 0.65mm, IPC Medium Density"     ""    Onsemi                   MC74VHC4053DTR2G           
+R23        31.0000mm  -16.7500mm TopLayer 270      R-0402             "SMD Resistor 0402"                                                  5.1k  Vishay                   CRCW04025K10FKEDC          
+C59        33.0000mm  9.3000mm   TopLayer 180      C-0603             "Chip Capacitor 0603"                                                4.7uF Kemet                    C0603C475K9PAC7867         
+C61        33.0000mm  13.3000mm  TopLayer 90       C-0603             "Chip Capacitor 0603"                                                4.7uF Kemet                    C0603C475K9PAC7867         
+C62        33.0000mm  17.7000mm  TopLayer 90       C-0603             "Chip Capacitor 0603"                                                4.7uF Kemet                    C0603C475K9PAC7867         

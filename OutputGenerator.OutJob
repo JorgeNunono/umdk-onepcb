@@ -1,0 +1,266 @@
+[OutputJobFile]
+Version=1.0
+Caption=
+Description=
+VaultGUID=
+ItemGUID=
+ItemHRID=
+RevisionGUID=
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=OutputGenerator.OutJob
+Description=
+TargetOutputMedium=PDF
+VariantName=[No Variations]
+VariantScope=1
+CurrentConfigurationName=
+TargetPrinter=Virtual Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
+OutputMedium1=Gerber
+OutputMedium1_Type=GeneratedFiles
+OutputMedium2=3D Model
+OutputMedium2_Type=GeneratedFiles
+OutputMedium3=BOM
+OutputMedium3_Type=GeneratedFiles
+OutputMedium4=PDF
+OutputMedium4_Type=Publish
+OutputType1=Gerber
+OutputName1=Gerber Files
+OutputCategory1=Fabrication
+OutputDocumentPath1=
+OutputVariantName1=
+OutputEnabled1=0
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=0
+OutputEnabled1_OutputMedium3=0
+OutputEnabled1_OutputMedium4=0
+OutputDefault1=0
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16908290~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False
+OutputType2=NC Drill
+OutputName2=NC Drill Files
+OutputCategory2=Fabrication
+OutputDocumentPath2=
+OutputVariantName2=
+OutputEnabled2=0
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=0
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=0
+OutputDefault2=0
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
+OutputType3=Pick Place
+OutputName3=Generates pick and place files
+OutputCategory3=Assembly
+OutputDocumentPath3=
+OutputVariantName3=
+OutputEnabled3=0
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=0
+OutputEnabled3_OutputMedium3=2
+OutputEnabled3_OutputMedium4=0
+OutputDefault3=0
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=True|ShowUnits=True|Separator=.|ExcludeFilterParam=True|IncludeVariations=False|IncludeStandardNoBOM=False|Filter= |FilterActive=False|YFlip=False|DifferentFootprints=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:False,Sort:None,Position:5|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:6|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:8|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:9|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:4|Column#9=Name:Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:10|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:11|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:True,Sort:Ascending,SortIndex:0,Position:1|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:2|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17,Type:0|Column#18=Name:Value,Fixed:False,Metric:False,Visible:True,Sort:None,Position:16,Type:0|Column#19=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:True,Sort:None,Position:19,Type:0|Column#20=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20,Type:0|Column#21=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21,Type:0|Column#22=Name:Package / Case,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24,Type:0|Column#23=Name:Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22,Type:0|Column#24=Name:Function,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23,Type:0|Column#25=Name:Manufacturer,Fixed:False,Metric:False,Visible:True,Sort:None,Position:18,Type:0|DocumentPath=C:\Projects\GamesCare\NepcaseTester\NepcaseTester.PcbDoc
+OutputType4=Schematic Print
+OutputName4=Schematic Prints
+OutputCategory4=Documentation
+OutputDocumentPath4=
+OutputVariantName4=
+OutputEnabled4=1
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium4=1
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A4|PaperIndex=9
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=True|ExpandPort=True|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=All SCH Documents
+OutputType5=Gerber X2
+OutputName5=Gerber X2 Files
+OutputCategory5=Fabrication
+OutputDocumentPath5=
+OutputVariantName5=
+OutputEnabled5=0
+OutputEnabled5_OutputMedium1=1
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=0
+OutputEnabled5_OutputMedium4=0
+OutputDefault5=0
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=BoardID=DMYWUOXO|FileComment= |FileSubject=Single|GenerateDRCRulesFile=False|GenerateReports=False|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=39|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OutputFormat=Single|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotCounterHolesPair0_Backdrill=False|PlotCounterHolesPair0_Checked=True|PlotCounterHolesPair0_DrillType=Regular|PlotCounterHolesPair0_FileName= |PlotCounterHolesPair0_HighLayer=Bottom Layer|PlotCounterHolesPair0_LowLayer=Top Layer|PlotCounterHolesPairs=True|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotMicroViasPair0_Backdrill=False|PlotMicroViasPair0_Checked=True|PlotMicroViasPair0_DrillType=Regular|PlotMicroViasPair0_FileName= |PlotMicroViasPair0_HighLayer=Bottom Layer|PlotMicroViasPair0_LowLayer=Top Layer|PlotMicroViasPairs=True|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_Checked=True|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_FileName= |PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_Checked=True|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_FileName= |PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotViaTypeDrillDrawingPair0_Backdrill=False|PlotViaTypeDrillDrawingPair0_Checked=True|PlotViaTypeDrillDrawingPair0_DrillType=Regular|PlotViaTypeDrillDrawingPair0_FileName= |PlotViaTypeDrillDrawingPair0_HighLayer=Bottom Layer|PlotViaTypeDrillDrawingPair0_LowLayer=Top Layer|PlotViaTypeDrillDrawingPairs=True|PlotViaTypeDrillGuidePair0_Backdrill=False|PlotViaTypeDrillGuidePair0_Checked=True|PlotViaTypeDrillGuidePair0_DrillType=Regular|PlotViaTypeDrillGuidePair0_FileName= |PlotViaTypeDrillGuidePair0_HighLayer=Bottom Layer|PlotViaTypeDrillGuidePair0_LowLayer=Top Layer|PlotViaTypeDrillGuidePairs=True|PlotViaTypeDrillPair0_Backdrill=False|PlotViaTypeDrillPair0_Checked=True|PlotViaTypeDrillPair0_DrillType=Regular|PlotViaTypeDrillPair0_FileName= |PlotViaTypeDrillPair0_HighLayer=Bottom Layer|PlotViaTypeDrillPair0_LowLayer=Top Layer|PlotViaTypeDrillPairs=True|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973832~1,16777220~1,16777223~1,16777217~1,16973831~1,16777218~1,16973833~1,16777222~1,16973834~1,16777219~1,16973837~1,16973830~1,16842751~1,16973835~1,16777221~1,16908289~1|PlusApertureTolerance=39|Record=GerberX2View|Sorted=False|UncheckPlotDrillDrawingPair0_Backdrill=False|UncheckPlotDrillDrawingPair0_Checked=False|UncheckPlotDrillDrawingPair0_DrillType=Regular|UncheckPlotDrillDrawingPair0_FileName= |UncheckPlotDrillDrawingPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingPair0_LowLayer=Top Layer|UncheckPlotDrillGuidePair0_Backdrill=False|UncheckPlotDrillGuidePair0_Checked=False|UncheckPlotDrillGuidePair0_DrillType=Regular|UncheckPlotDrillGuidePair0_FileName= |UncheckPlotDrillGuidePair0_HighLayer=Bottom Layer|UncheckPlotDrillGuidePair0_LowLayer=Top Layer|DocumentPath=C:\Projects\UMDK_JRev2\UMDK.PcbDoc
+OutputType6=ExportSTEP
+OutputName6=Export STEP
+OutputCategory6=Export
+OutputDocumentPath6=
+OutputVariantName6=
+OutputEnabled6=0
+OutputEnabled6_OutputMedium1=0
+OutputEnabled6_OutputMedium2=1
+OutputEnabled6_OutputMedium3=0
+OutputEnabled6_OutputMedium4=0
+OutputDefault6=0
+Configuration6_Name1=OutputConfigurationParameter1
+Configuration6_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=1|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\Projects\GamesCare\NepcaseTester\NepcaseTester.PcbDoc
+OutputType7=BOM_PartType
+OutputName7=Bill of Materials XLS
+OutputCategory7=Report
+OutputDocumentPath7=
+OutputVariantName7=
+OutputEnabled7=0
+OutputEnabled7_OutputMedium1=0
+OutputEnabled7_OutputMedium2=0
+OutputEnabled7_OutputMedium3=1
+OutputEnabled7_OutputMedium4=0
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration7_Name1=ColumnNameFormat
+Configuration7_Item1=CaptionAsName
+Configuration7_Name2=General
+Configuration7_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1316|FormHeight=661|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration7_Name3=GroupOrder
+Configuration7_Item3=Manufacturer Part Number=True
+Configuration7_Name4=OutputConfigurationParameter1
+Configuration7_Item4=??`???
+Configuration7_Name5=SortOrder
+Configuration7_Item5=Designator=Up
+Configuration7_Name6=VisibleOrder
+Configuration7_Item6=Designator=130|Quantity=130|Manufacturer=130|Manufacturer Part Number=130|Footprint=130|Comment=130|Value=100|Voltage=100
+Configuration7_Name7=VisibleOrder_Flat
+Configuration7_Item7=Designator=130|Quantity=130|Manufacturer=130|Manufacturer Part Number=130|Footprint=130|Comment=130|Value=100|Voltage=100
+OutputType8=SimpleBOM
+OutputName8=Simple BOM
+OutputCategory8=Report
+OutputDocumentPath8=
+OutputVariantName8=
+OutputEnabled8=0
+OutputEnabled8_OutputMedium1=0
+OutputEnabled8_OutputMedium2=0
+OutputEnabled8_OutputMedium3=0
+OutputEnabled8_OutputMedium4=0
+OutputDefault8=0
+Configuration8_Name1=OutputConfigurationParameter1
+Configuration8_Item1=Record=SimpleBOMView|SimpleBOMMode=0|DocumentPath=[Project]
+OutputType9=PCBDrawing
+OutputName9=Draftsman
+OutputCategory9=Documentation
+OutputDocumentPath9=
+OutputVariantName9=
+OutputEnabled9=1
+OutputEnabled9_OutputMedium1=0
+OutputEnabled9_OutputMedium2=0
+OutputEnabled9_OutputMedium3=0
+OutputEnabled9_OutputMedium4=2
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
+[PublishSettings]
+OutputFilePath1=C:\Projects\GamesCare\NeptuneMotherboard\.\Generate Files\
+ReleaseManaged1=0
+OutputBasePath1=.\
+OutputPathMedia1=[Media Type]
+OutputPathMediaValue1=
+OutputPathOutputer1=[Output Type]
+OutputPathOutputerPrefix1=
+OutputPathOutputerValue1=
+OutputFileName1=
+OutputFileNameMulti1=UMDK_JRev1
+UseOutputNameForMulti1=1
+OutputFileNameSpecial1=
+OpenOutput1=0
+OutputFilePath2=C:\Projects\GamesCare\NeptuneMotherboard\.\
+ReleaseManaged2=0
+OutputBasePath2=.\
+OutputPathMedia2=[Media Type]
+OutputPathMediaValue2=
+OutputPathOutputer2=[Output Type]
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=
+OutputFileName2=
+OutputFileNameMulti2=
+UseOutputNameForMulti2=1
+OutputFileNameSpecial2=
+OpenOutput2=0
+OutputFilePath3=C:\Projects\GamesCare\NeptuneMotherboard\.\Generate Files\
+ReleaseManaged3=0
+OutputBasePath3=.\
+OutputPathMedia3=[Media Type]
+OutputPathMediaValue3=
+OutputPathOutputer3=[Output Type]
+OutputPathOutputerPrefix3=
+OutputPathOutputerValue3=
+OutputFileName3=
+OutputFileNameMulti3=
+UseOutputNameForMulti3=1
+OutputFileNameSpecial3=
+OpenOutput3=0
+OutputFilePath4=C:\Projects\GamesCare\NeptuneMotherboard\.\NeptuneMotherboard.PDF
+ReleaseManaged4=0
+OutputBasePath4=.\
+OutputPathMedia4=Generate Files
+OutputPathMediaValue4=Generate Files
+OutputPathOutputer4=[Output Type]
+OutputPathOutputerPrefix4=
+OutputPathOutputerValue4=
+OutputFileName4=OutputGenerator.PDF
+OutputFileNameMulti4=
+UseOutputNameForMulti4=0
+OutputFileNameSpecial4==ProjectName
+OpenOutput4=0
+PromptOverwrite4=0
+PublishMethod4=0
+ZoomLevel4=50
+FitSCHPrintSizeToDoc4=1
+FitPCBPrintSizeToDoc4=1
+GenerateNetsInfo4=1
+MarkPins4=1
+MarkNetLabels4=1
+MarkPortsId4=1
+GenerateTOC4=1
+ShowComponentParameters4=1
+GlobalBookmarks4=1
+PDFACompliance4=PDF/A-3a
+PDFVersion4=1.7
+
+[GeneratedFilesSettings]
+RelativeOutputPath1=C:\Projects\GamesCare\NeptuneMotherboard\.\Generate Files\
+OpenOutputs1=0
+AddToProject1=0
+TimestampFolder1=0
+UseOutputName1=0
+OpenODBOutput1=0
+OpenGerberOutput1=0
+OpenNCDrillOutput1=0
+OpenIPCOutput1=0
+EnableReload1=0
+RelativeOutputPath2=C:\Projects\GamesCare\NeptuneMotherboard\.\
+OpenOutputs2=0
+AddToProject2=0
+TimestampFolder2=0
+UseOutputName2=0
+OpenODBOutput2=0
+OpenGerberOutput2=0
+OpenNCDrillOutput2=0
+OpenIPCOutput2=0
+EnableReload2=0
+RelativeOutputPath3=C:\Projects\GamesCare\NeptuneMotherboard\.\Generate Files\
+OpenOutputs3=0
+AddToProject3=0
+TimestampFolder3=0
+UseOutputName3=0
+OpenODBOutput3=0
+OpenGerberOutput3=0
+OpenNCDrillOutput3=0
+OpenIPCOutput3=0
+EnableReload3=0
+RelativeOutputPath4=C:\Projects\GamesCare\NeptuneMotherboard\.\NeptuneMotherboard.PDF
+OpenOutputs4=0
+
